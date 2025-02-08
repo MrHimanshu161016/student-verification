@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student ID Verification</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Virtual Internship Certificate Verification</h1>
+        <p>Verify your internship certificate easily.</p>
+    </header>
+
+    <section class="container">
+        <div class="verify-box">
+            <h2>Enter Student ID</h2>
+            <input type="text" id="studentId" placeholder="Enter Student ID">
+            <button onclick="verifyID()">Verify</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <section class="qr-section">
+        <h2>Scan QR Code to Verify</h2>
+        <div id="qrcode"></div>
+    </section>
+
+</body>
+</html>
